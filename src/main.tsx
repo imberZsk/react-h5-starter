@@ -1,0 +1,10 @@
+import { RouterProvider } from 'react-router-dom'
+import ReactDOM from 'react-dom/client'
+import './global.css'
+import router from './router'
+import VConsole from 'vconsole'
+new VConsole({ theme: 'dark' })
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <RouterProvider router={router} />
+)
