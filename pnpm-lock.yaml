@@ -15,7 +15,8 @@ specifiers:
   lint-staged: ^13.1.2
   mobx: ^6.8.0
   mobx-react-lite: ^3.4.0
-  postcss-px-to-viewport: ^1.1.1
+  postcss: ^8.4.21
+  postcss-mobile-forever: ^2.3.3
   prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -47,7 +48,8 @@ devDependencies:
   eslint-plugin-react: 7.32.2_eslint@8.34.0
   husky: 8.0.3
   lint-staged: 13.1.2
-  postcss-px-to-viewport: 1.1.1
+  postcss: 8.4.21
+  postcss-mobile-forever: 2.3.3_postcss@8.4.21
   prettier: 2.8.4
   rollup-plugin-visualizer: 5.9.0
   stylelint: 15.2.0
@@ -2991,10 +2993,11 @@ packages:
     resolution: {integrity: sha512-3sOlxmbKcSHMjlUXQZKQ06jOswE7oVkXPxmZdoB1r5l0q6gTFTQSHxNxOrCccElbW7dxNytifNEo8qidX2Vsig==}
     dev: true
 
-  /postcss-px-to-viewport/1.1.1:
-    resolution: {integrity: sha512-2x9oGnBms+e0cYtBJOZdlwrFg/mLR4P1g2IFu7jYKvnqnH/HLhoKyareW2Q/x4sg0BgklHlP1qeWo2oCyPm8FQ==}
+  /postcss-mobile-forever/2.3.3_postcss@8.4.21:
+    resolution: {integrity: sha512-Zch37T6oxypIQcz/SXHZvEeCGC5Grk0dfMCwY3MGEuRGc1syvvzQKIbAyel+r//45EZlsWzs+Zs5TkCQRAVZ7A==}
+    peerDependencies:
+      postcss: ^8.0.0
     dependencies:
-      object-assign: 4.1.1
       postcss: 8.4.21
     dev: true
 
